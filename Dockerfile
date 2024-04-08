@@ -6,4 +6,4 @@ RUN sed -i '/^user/d' /etc/nginx/nginx.conf
 #the port we want in okd and nginx cuz 8080 is baller
 EXPOSE 8080
 
-CMD ["nginx", "-g", "daemon off;"]
+#CMD ["nginx", "-g", "daemon off;"]
